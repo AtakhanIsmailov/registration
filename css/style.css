@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+input {
+    border-radius: 8px;
+    border: 0.5px solid #AEAEAE;
+    padding-left: 15px;
+    height: 48px;
+    width: 200px;
+}
+
+.container {
+    max-width: 664px;
+    height: 576px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px 24px;
+    border-radius: 10px;
+    margin-top: 15vh;
+    
+}
+
+form .name {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+form .name input {
+    width: 200px;
+    
+}
+
+main {
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 20px 0 10px;
+}
+
+h5 {
+    margin: 20px 0 10px;
+}
+.dateOfBirth {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.grid {
+    width: 408px;
+}
+
+.document {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.fact {
+    margin: 16px 0;
+    
+
+}
+#image-logo {
+    background-image: url('../icon/calendar.svg');
+    background-repeat: no-repeat;
+    background-position: right ;
+    background-size: 24px;
+    background-position: absolute;
+    
+}
+
+
+button {
+    width: 384px;
+    height: 48px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232529;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+
+
+    
+}
+
+button a {
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+}
+
+
+#file {
+    border-radius: 8px;
+    border: 0.5px solid #AEAEAE;
+    padding-left: 12px;
+    height: 48px;
+    width: 200px;
+    color: #AEAEAE;
+}

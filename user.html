@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/user.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <div class="container">
+            <h3>Данные о ваших доходах</h3>
+            <div class="main">
+                <div class="dateOfBirth">
+                    <input class="grid" type="text" placeholder="Наименование организации">
+                    <input type="text" placeholder="Должность" >
+                </div>
+            <div class="name">
+                <input type="text" placeholder="Заработная плата в  месяц">
+                <input type="text" placeholder="Заработная Плата  за посл.  3 месяца">
+            </div>
+            <h5>Сведения о кредите</h5>
+            <div class="dateOfBirth">
+                <input class="long" type="text" placeholder="Место проживания по прописке">
+            </div>
+            <div class="document">
+                <input type="text" placeholder="Количество товара">
+                <input type="text" placeholder="ИНН">
+                <input type="text" placeholder="Итого сумма кредита">
+            </div>
+            <div>
+                <select id="file">
+                    <option  value="">Вид кредита </option>
+                </select>
+                <select id="file">
+                    <option  value="">Срок кредита ( мес)</option>
+                </select>
+                
+            </div>
+          
+                <div class="select-box">
+                  <div class="options-container">
+                    <div class="option">
+                      <input
+                        type="radio"
+                        class="radio"
+                        id="automobiles"
+                        name="category"
+                      />
+                      <label for="automobiles">Оптима Банк</label>
+                    </div>
+          
+                    <div class="option">
+                      <input type="radio" class="radio" id="film" name="category" />
+                      <label for="film">Рск Банк</label>
+                    </div>
+          
+                    <div class="option">
+                      <input type="radio" class="radio" id="science" name="category" />
+                      <label for="science">Дос-Кредобанк</label>
+                    </div>
+          
+                   
+                   
+          
+                    <div class="option">
+                      <input type="radio" class="radio" id="travel" name="category" />
+                      <label for="travel">Банк Кыргызстан</label>
+                    </div>
+          
+                    <div class="option">
+                      <input type="radio" class="radio" id="sports" name="category" />
+                      <label for="sports">Коммерческий банк</label>
+                    </div>
+          
+                    <div class="option">
+                      <input type="radio" class="radio" id="news" name="category" />
+                      <label for="news">Сбербанк</label>
+                    </div>
+          
+                    <div class="option">
+                      <input type="radio" class="radio" id="tutorials" name="category" />
+                      <label for="tutorials">АйылБанк</label>
+                    </div>
+                  </div>
+          
+                  <div class="selected">
+                    Точка получения товара
+                  </div>
+          
+                  <div class="search-box">
+                    <input type="text" placeholder="Банк..." />
+                  </div>
+                </div>
+            
+            <br>
+            <button><a  target="blank" href="#">Отравить заказ</a></button>
+        </div>
+        </div>
+    </form>
+    <script src="./main.js"></script>
+    
+</body>
+</html>
